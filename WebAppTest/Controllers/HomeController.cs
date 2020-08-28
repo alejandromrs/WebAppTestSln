@@ -26,12 +26,5 @@ namespace WebAppTest.Controllers
 
             return View();
         }
-
-        public ActionResult Vendor()
-        {
-            ViewBag.Message = "Hello vendor";
-
-            return View();
-        }
     }
 }
